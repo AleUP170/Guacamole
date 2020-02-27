@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8964039499981747587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8964039499981747584}
+  - component: {fileID: 8964039499981747585}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8964039499981747584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964039499981747587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8964039499981747585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964039499981747587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5504a958df6b04788073a0e678fffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animales:
+  - {fileID: 203729552311933834, guid: f1a0ab47f72f55b448b9604a9678fd09, type: 3}
+  - {fileID: 7981750934848050020, guid: c4bc28ac4eef96745a61a43322cfa148, type: 3}
+  - {fileID: 1248137605871870728, guid: 41b94a52489007241961e0a5d07eea1f, type: 3}
+  - {fileID: 7168428820781442968, guid: ede0c5d6eaf6bd146b3d03cb33dd5a07, type: 3}
+  - {fileID: 4266560448418876489, guid: 276bea13b83d883448fbe38711de3ea0, type: 3}
+  - {fileID: 2977865816067483193, guid: cd94c57de992a8f41bf71c9df1eb4bf8, type: 3}
+  cereales:
+  - {fileID: 7460580402940525959, guid: 2dde5f7c00d4b4b4fa269b8c20278d07, type: 3}
+  - {fileID: 2681517451126441849, guid: 9e9052497bff7db49b89fd7e7bd117f4, type: 3}
+  - {fileID: 8618847028514990523, guid: 3cd0d5889d80dfe4e9065e774454e868, type: 3}
+  - {fileID: 6108241463646466060, guid: 41ebe8cdfaa03564b9ddb62e91f56d53, type: 3}
+  verduras:
+  - {fileID: 2568467939493632410, guid: 96fcd7b0b8d27f745b6e566c4c6e0e60, type: 3}
+  - {fileID: 8801983978773744595, guid: 5969421b00505ee4186e892b65be5355, type: 3}
+  - {fileID: 4295460388088945714, guid: 6a5b446b4a6e7e24698b2d922d55dc86, type: 3}
+  - {fileID: 8487040567559438891, guid: 9b7ea090b70c90e449ed2f1764365f67, type: 3}
+  - {fileID: 3821259842275470699, guid: 0265e35581e114d43b07baaa2bbbcf9e, type: 3}
+  - {fileID: 7215490057380846529, guid: 27f4c8dc53a96ad439f31085320324a6, type: 3}
+  frutas:
+  - {fileID: 4801378403386708884, guid: ee39386cb43f20d418e3ab61ad085503, type: 3}
+  - {fileID: 7797520836816384501, guid: f9ed95f2e3844e244b6b2d02ab582434, type: 3}
+  - {fileID: 8360675733275598324, guid: 474baffe849b90c4a884d2b322816908, type: 3}
+  - {fileID: 5581362033980925370, guid: d93016669cef8d941abcef142560c487, type: 3}
+  - {fileID: 7720422969479864239, guid: 73a336817dab96342b26208011b04e9e, type: 3}
+  leguminosas:
+  - {fileID: 8322848142234457654, guid: 80094d3e7da541d4f8e9f9ac346ebc99, type: 3}
+  - {fileID: 9197142941448330744, guid: f6752015042fae94fad52eb04bc63928, type: 3}
